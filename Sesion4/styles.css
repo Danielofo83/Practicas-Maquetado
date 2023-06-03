@@ -1,0 +1,31 @@
+.main_title{
+    color:blueviolet
+}
+
+.position_container>.position_box{
+    width: 90px;
+    height: 90px;
+    border:1px solid black;
+    display:inline-block;
+}
+.position_box--green{
+    background-color: green;
+    position: static;
+}
+.position_box--red{
+    background-color: red;
+    position:relative;
+    top 40px;
+    left: 40 px;
+}
+.position_box--blue{
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    
+}
+.position_box--hotpink
+{
+    background-color: hotpink;
+
+}
